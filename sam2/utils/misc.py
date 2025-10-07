@@ -219,6 +219,7 @@ def load_video_frames_from_jpg_images(
     async_loading_frames=False,
     compute_device=torch.device("cuda"),
 ):
+
     """
     Load the video frames from a directory of JPEG files ("<frame_index>.jpg" format).
 
